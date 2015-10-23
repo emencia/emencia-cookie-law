@@ -15,7 +15,7 @@ setup(
         "Programming Language :: Python :: 2.7",
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
-        'Development Status :: 4 - Beta',
+        'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
         'Framework :: Django',
         "Framework :: Django :: 1.4",
@@ -23,13 +23,7 @@ setup(
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
-    install_requires=[
-    ],
-    #entry_points={
-        #'console_scripts': [
-            #'emencia-cookie-law = cookie_law.console_script:main',
-        #]
-    #},
+    install_requires=[],
     include_package_data=True,
     zip_safe=False
 )

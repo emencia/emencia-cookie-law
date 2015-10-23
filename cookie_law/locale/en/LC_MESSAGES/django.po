@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Emencia Cookie law 1\n"
+"Project-Id-Version: Emencia Cookie law 3\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-09-30 03:25+0200\n"
+"POT-Creation-Date: 2015-10-23 06:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -20,22 +20,21 @@ msgstr ""
 
 #: templates/cookie_law/banner.html:5
 msgid ""
-"<p>By continuing to browse our website without editing your settings, you"
-" are agreeing to our use of cookies in order to help us deliver our "
-"services and provide you the best experience suited to your interests. "
-"Click on &quot;Learn more&quot; link to learn about cookies and how to "
-"change your settings.</p>"
+"<p>By continuing to browse without changing your settings, you accept the"
+" use of cookies in order to access services and offers based on your "
+"interests in order to improve the user experience on our site. Click on "
+"&quot;More info&quot; to find out more about configuring cookies.</p>"
+msgstr ""
+
+#: templates/cookie_law/banner.html:6
+msgid "More info"
 msgstr ""
 
 #: templates/cookie_law/banner.html:6
 msgid "/cookie-law/"
 msgstr ""
 
-#: templates/cookie_law/banner.html:6
-msgid "More infos"
-msgstr ""
-
 #: templates/cookie_law/banner.html:9
-msgid "I Agree"
+msgid "I accept"
 msgstr ""
 

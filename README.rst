@@ -47,14 +47,14 @@ COOKIELAW_COOKIE_NAME
 
 Default to ``emencia_cookie_law``.
 
-The cookie name pushed to the browser if the user click on the accept link. Note that this name is hardcoded in the shipped Javascript plugin, so if you change it you will have to code another plugin.
+The cookie name pushed to the browser if the user click on the accept link. Note that this name is hardcoded in the shipped Javascript plugin, so if you change it you will have to code another plugin or duplicate it in your statics to override it and change its text.
 
 COOKIELAW_TEMPLATE
 ..................
 
 Default to ``cookie_law/banner.html``.
 
-The filepath to the banner template. You don't need to edit this settings to change the banner aspect, just override the template with the same relative filepath in your project templates directory.
+The filepath to the banner template. You should not really need to edit this settings to change the banner aspect, just override the template with the same relative filepath in your project templates directory.
 
 
 Templates integration
@@ -66,7 +66,7 @@ Recommended way is to have a basic file for all your project templates, often na
 
        <script type="text/javascript" src="/static/js/cookie_law/cookie_law.js"></script>
    
-   Don't forget *jQuery* and *jquery.cookie* requirements also (if you are using Foundation, they are allready loaded).
+   Don't forget *jQuery* and *jquery.cookie* requirements to be loaded before this plugin (if you are using Foundation, they are allready loaded).
 
 #. Load the the cookie_law tag library at top of your template: ::
 
@@ -76,7 +76,7 @@ Recommended way is to have a basic file for all your project templates, often na
 
        {% cookie_law_banner %}
 
-Default template has been made with Foundation components, if you don't use it or use another CSS Framework, you should override it see `COOKIELAW_TEMPLATE`_.
+Default template has been made with Foundation components, if you don't use it or use another CSS Framework, you should override it see setting `COOKIELAW_TEMPLATE`_.
 
 Because the default template has been done for Foundation, there is no need of any CSS to load.
 
